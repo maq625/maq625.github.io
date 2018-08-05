@@ -1,0 +1,68 @@
+/* Whole page background color */
+html {
+	background-color: #666060;
+}
+
+body {
+  width: 1500px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 0px 0px 20px 0px;
+  border: 5px solid black;
+}
+
+/* Borders for a list of sorts */
+.links {
+	width: 120px;	
+	border: 1px solid black;
+	line-height: 1.6;
+    margin: 0;	/* no space between the list and list head */
+	background-color: black;
+}
+.link-head {
+	width: 160px;
+	border: 1px solid black;
+	background-color: lightgrey;
+	padding: 5px 0 10px 5;
+	margin: 0;	/* no space between the list and list head */
+}
+
+/* Font for fun stuff? */
+.sriracha {
+	font-family: 'Sriracha', cursive;
+	font-size: 20px;
+	color: blue;
+}
+
+/* Just for links 
+ * Makes the bullets in a ul orange too! 
+ */
+a, ul {
+	color: orange;
+}
+
+/* Header for the page */
+#page-head {
+	text-align: center;
+	font-size: 40px;
+	background-color: lightgrey;
+	padding-top: 30px;
+    padding-bottom: 30px;
+	margin: 0;
+	text-shadow: 3px 3px 1px orange;
+
+}
+
+/* For centering pictures */
+.center {
+	display: block;
+	margin: 0 auto;
+    width: 50%;
+}
+
+/* Centered end of page Info */
+#page-end {
+	padding: 0;
+	text-align: center;
+}
+
